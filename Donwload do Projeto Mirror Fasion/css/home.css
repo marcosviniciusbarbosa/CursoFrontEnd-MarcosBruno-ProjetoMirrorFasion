@@ -1,0 +1,71 @@
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+}
+header {
+    position: relative;
+}
+.sacola {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    text-align: right;
+    width: 140px;
+    padding-right: 35px;
+}
+.menu-opcoes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}   
+.menu-opcoes ul{
+    font-size: 15px;
+}
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    columns: #003366;;
+}
+.busca, menu-departamento {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+}
+.busca h2, .busca form, menu-departemento {
+    margin: 10px;
+}
+.menu-departamento{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;    
+}
+.menu-departamento a{
+    color: #333333;
+    text-decoration: none;
+}
+.busca input[type=search]{
+    width: 170px;
+}
+.busca
+.menu-departamento{
+    float: left;
+}
+.menu-departamento{
+    clear: left;
+}
+.destaque{
+    margin-top: 10px;
+}
+.menu-departamento{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
