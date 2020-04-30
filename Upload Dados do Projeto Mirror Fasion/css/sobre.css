@@ -14,6 +14,9 @@ h1{
 
     
 }
+h1 + p{
+    text-indent: 0;
+}
 h2 {
     border-bottom: 2px solid #333333;
     margin-bottom: 30px;
@@ -26,7 +29,12 @@ p, ul {
     padding-left: 50px; 
     margin-top: 30px; 
 }
-
+p::first-letter{
+    font-weight: bold;
+}
+p::first-line{
+    font-variant: smaall-caps;
+}
 figure{
     background-color: #f2eded;
     text-align: center;
