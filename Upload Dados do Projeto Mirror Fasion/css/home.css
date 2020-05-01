@@ -125,6 +125,19 @@ header {
     text-align: center;
     text-decoration: none;
 }
+painel li{
+    transition: 0.7s ease-out;
+}
+.painel li:hover{
+    border-style: 0 0 5px #333333;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px #333333;
+    transform: scale(1.2) rotate(-5deg);
+    transition: 0.7s ease-in;
+}
+.painel li:nth-child(2n):hover{
+    transform: scale(1.2)rotate(5seg);
+}
 
 .novidades{
     background-color: #f5dcdc;
