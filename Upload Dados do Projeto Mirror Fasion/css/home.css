@@ -81,7 +81,7 @@ menu-departemento h2 {
     float: left;
 }        
 .menu-departamento {
-    padding-bottom: 10px;
+    padding-bottom: 196px;
     margin-top: 10px;           
     clear: left;
 }
@@ -116,7 +116,7 @@ menu-departemento h2 {
     padding: 10px;
     width: 445px;
  
-    box-shadow: inset 1px 1px 4px #999999;
+    box-shadow: inset 1px 1px 1px #999999;
     border-radius: 4px;
 
 }
